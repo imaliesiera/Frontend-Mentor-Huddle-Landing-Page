@@ -1,0 +1,23 @@
+/*Global styles
+-------------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+main {
+  width: 100vw;
+margin: 3.5% auto;
+  top: 50%;
+  left: 20%;
+  right: 20%;
+}
+body {
+  background-color: hsl(0, 0%, 98%);
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("./images/bg-desktop.svg");
