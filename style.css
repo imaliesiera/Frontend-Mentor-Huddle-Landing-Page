@@ -74,11 +74,13 @@ h1{
 -------------------------------------------*/
 
 .social-media-icons{
-    position: relative;
-    left: 90%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0 90%;
+    
 }
 .fa-facebook-f {
-  font-size: 14px;
+  font-size: 20px;
   border: 1px solid white;
   border-radius: 50%;
   padding: 5px;
@@ -88,7 +90,7 @@ h1{
   text-decoration: none;
 }
 .fa-twitter {
-  font-size: 14px;
+  font-size: 20px;
   margin-left: 10px;
   border: 1px solid white;
   padding: 5px;
@@ -97,7 +99,7 @@ h1{
   text-decoration: none;
 }
 .fa-instagram {
-  font-size: 14px;
+  font-size: 20px;
   margin-left: 10px;
   border: 1px solid white;
   padding: 5px;
@@ -111,6 +113,7 @@ h1{
 }
 .attribution a{
     color: white;
+    text-decoration: none;
 }
 /*Responsive styles
 -------------------------------------------*/
@@ -136,7 +139,9 @@ h1{
     width: 80vw;
 }
 .social-media-icons{
-    left: 0%;
+     display: flex;
+    flex-direction: row;
+    padding: 10% 0 0 40%;
 }
 .attribution{
    visibility: hidden;
