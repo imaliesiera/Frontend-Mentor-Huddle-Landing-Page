@@ -2,6 +2,7 @@
 -------------------------------------------*/
 html {
   box-sizing: border-box;
+  /* font-size: 62.5%; */
 }
 
 *,
@@ -11,14 +12,16 @@ html {
 }
 
 main {
-  margin: 4%; 
+  margin: 2% 5% 2% 5%; 
 }
 body {
-    max-width: 1440px;
-    width:100%;
+max-width: 1440px;
+width:100%;
   background-color: hsl(0, 0%, 98%);
   background-color: hsl(257, 40%, 49%);
   background-image: url("./images/bg-desktop.svg");
+  background-position: -48px;
+  background-size: 105%
 }
 /*Images styles
 -------------------------------------------*/
@@ -34,4 +37,23 @@ body {
 .flex-wrap{
     display: flex;
     flex-direction: row;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.description{
+    color: white;
+    
+}
+.button{
+    color: hsl(257, 40%, 49%);
+    background-color: white;
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    padding-top: ;
+}
+h1{
+   font-size: 2em;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
 }
