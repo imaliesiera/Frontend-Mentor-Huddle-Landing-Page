@@ -54,10 +54,9 @@ body {
 .button {
   color: hsl(257, 40%, 49%);
   background-color: white;
-  padding: 15px 50px 15px 50px;
+  padding: 15px 60px 15px 60px;
   text-decoration: none;
   border-radius: 40px;
-
   text-align: center;
   box-shadow: 2px 3px rgba(71, 71, 71, 0.788);
 }
