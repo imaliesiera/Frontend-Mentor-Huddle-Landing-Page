@@ -41,15 +41,21 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   padding-top: 3%;
+  
 }
 .description {
   color: white;
-  margin-left: 4%;
+  margin-left: 3%;
   padding-top: 10px;
+
 }
 .description p {
-  color: rgba(255, 255, 255, 0.76);
+    padding-top: 5px;
+  color: rgba(255, 255, 255, 0.884);
   margin-bottom: 8%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8em;
 }
 .button {
   color: hsl(257, 40%, 49%);
@@ -59,13 +65,15 @@ body {
   border-radius: 40px;
   text-align: center;
   box-shadow: 2px 3px rgba(71, 71, 71, 0.788);
+  
 }
 
-h1 {
+h2 {
   font-size: 36px;
-  width: 95%;
+  width: 100%;
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
+   margin-bottom: 5px;
 }
 /*Icon styles
 -------------------------------------------*/
