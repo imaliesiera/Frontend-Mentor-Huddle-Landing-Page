@@ -2,6 +2,8 @@
 -------------------------------------------*/
 html {
   box-sizing: border-box;
+  max-width: 1440px;   
+    width:100vw;
   /* font-size: 62.5%; */
 }
 
@@ -15,13 +17,12 @@ main {
   margin: 2% 5% 2% 5%; 
 }
 body {
-max-width: 1440px;
-width:100%;
+
   background-color: hsl(0, 0%, 98%);
   background-color: hsl(257, 40%, 49%);
   background-image: url("./images/bg-desktop.svg");
   background-position: -29px;
-  background-size: 101%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 /*Images styles
@@ -40,22 +41,25 @@ width:100%;
     flex-direction: row;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    padding-top: 3%;
 }
 .description{
     color: white;
     margin-left: 4%;
     padding-top:10px;
+    
 }
 .description p{
     color: rgba(255, 255, 255, 0.76);
+    margin-bottom: 8%;
 }
 .button{
     color: hsl(257, 40%, 49%);
     background-color: white;
-    padding: 15px;
-    width: 180px;
+    padding: 15px 50px 15px 50px;
+    text-decoration: none;
     border-radius: 40px;
-    margin-top: 20px;
+   
     text-align: center;
     box-shadow: 2px 3px rgba(71, 71, 71, 0.788);
 }
@@ -68,3 +72,76 @@ h1{
 }
 /*Icon styles
 -------------------------------------------*/
+
+.social-media-icons{
+    position: relative;
+    left: 90%;
+}
+.fa-facebook-f {
+  font-size: 14px;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: white;
+  text-decoration: none;
+}
+.fa-twitter {
+  font-size: 14px;
+  margin-left: 10px;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+}
+.fa-instagram {
+  font-size: 14px;
+  margin-left: 10px;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+}
+.attribution{
+    color: white;
+   margin-top: 3%;
+}
+.attribution a{
+    color: white;
+}
+/*Responsive styles
+-------------------------------------------*/
+@media screen and (max-width: 1000px) {
+    body{
+  background-image: url("./images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 90%;
+  background-color: hsl(257, 40%, 49%);
+  align-items: center;
+  text-align: center;
+}
+.flex-wrap{
+    display: flex;
+    flex-direction: column;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 3%;
+}
+.mockup-image{
+    width: 80vw;
+}
+.social-media-icons{
+    left: 0%;
+}
+.attribution{
+   visibility: hidden;
+}
+.description{
+    align-content: center;
+}
+}
